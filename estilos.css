@@ -1,0 +1,41 @@
+body{
+    background:blue;
+    border-left : 20px solid white;
+    border-right : 20px solid white;
+    border-top : 20px solid white;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background: #E12F2F;
+    color: white;
+    text-align: left;
+}
+.descripcion{
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.descripcion .conten{
+    display: flex;
+    justify-content: space-evenly;
+}
+.descripcion .conten img,p{
+    padding: 40px;
+}
+.descripcion .conten img{
+    width:350px;
+    height:350px;
+}
+footer p{
+    text-align: center;
+    width: auto;
+    height: 120px;
+    background: #E12F2F;
+    padding-top:10px ;
+    color: white;
+}
+.nav .nav-item .nav-link{
+    color: white;
+}
